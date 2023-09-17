@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 949;
+}
+
+h2 {
+  color: gray;
+  font-size: 15px;
+  font-weight: 949;
+  margin: 10px;
+}
+
+#time-option {
+  color: black;
+  background-color: gray;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+#save-btn {
+  display: block;
+  color: black;
+  background-color: gray;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+  width: 90px;
+  margin-left: 10px;
+  margin-top: 40px;
+}

@@ -1,0 +1,64 @@
+body {
+  height: 120px;
+  width: 300px;
+  background-color: black;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+#time {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: 949;
+  color: gray;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btn-container > button {
+  color: black;
+  background-color: gray;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+  width: 90px;
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.task-name {
+  color: black;
+  background-color: gray;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+  width: 180px;
+  margin: 2px;
+}
+
+.task-name::placeholder {
+  color: black;
+}
+
+.task-delete {
+  color: black;
+  background-color: gray;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px;
+  width: 25px;
+  margin: 2px;
+  font-weight: 949;
+}
